@@ -1,4 +1,4 @@
-gem "jekyll", "~> 4.0"
+gem "jekyll"
 gem "jemoji"
 gem "jekyll-gist"
 
