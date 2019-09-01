@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="container">
+  {% assign author = site.authors | where: 'short_name', page.author | first %}
+  {% if author %}
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.date | date: "%Y-%m-%d" }} par <a class="ns-blog-link" href="{{ '/authors/' | append: page.author | relative_url }}">{{ author.name }}</a></p>
+
+    {{ content }}
+
+    <br/>
+    <p>{{ author.name }}, {{ author.position }}</p>
+  {% endif %}
+</div>

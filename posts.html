@@ -1,0 +1,18 @@
+---
+layout: default
+title: Liste des billets de blog
+---
+
+<div class="container">
+    <h1>Liste des billets de blog</h1>
+    <br />
+    {% for post in site.posts %}
+    <div class="border-bottom border-gray p-2 mb-3">
+        <h2><a class="ns-blog-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt }}</p>
+        {% assign author = site.authors | where: 'short_name', post.author | first %}
+        <h6>{{ post.date | date: "%Y-%m-%d" }} par <a class="ns-blog-link" href="{{ '/authors/' | append: post.author | relative_url }}">{{ author.name }}</a></h6>
+    </div>
+    {% endfor %}
+</div>
+</div>
