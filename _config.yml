@@ -19,7 +19,6 @@ github_username:  ns-bbsaila
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
 kramdown:
   input: GFM
 
