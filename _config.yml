@@ -1,7 +1,7 @@
-title: Neosys blog
+title: Le journal technique de bord de Neosys
 email: bbsaila@neosys.fr
 github_username:  ns-bbsaila
-description: Le journal technique de Neosys
+description: Nous sommes une équipe de développeurs et consultants (juniors et expérimentés) partageants notre savoir, nos retours d'expérience et notre joie de vivre au sein de Neosys
 
 # Build settings
 markdown: kramdown
