@@ -11,6 +11,16 @@ Pour configurer votre environnement de dév local:
 
 + Installez Ruby et son SDK en suivant les instructions sur le [lien](https://jekyllrb.com/docs/installation/windows/).
 + Clonez le repository.
++ Exécutez les instructions suivantes en ligne de commande:
+
+```ps
+gem install jemoji
+gem install jekyll-gist
+gem install github-pages
+gem install tzinfo-data
+gem install wdm
+```
+
 + Placez-vous à la racine du projet et jouer l'instruction `bundler update` en ligne de commande.
 + Démarrez le blog en local avec la ligne de commande `bundler exec jekyll serve -- force_polling`
 + Ouvrez le navigateur et allez sur le lien <http://localhost:4000/blog/> (surtout n'oubliez pas le dernier /)
@@ -31,6 +41,10 @@ Pour rédiger le billet:
 
 ## Guidelines
 
++ Pour accéder à l'organisation **neosys-opentech** et pouvoir y contribuer, merci de m'adresser une demande sur bbsaila@neosys.fr. Par la suite un nouveau compte GitHub va vous être créé et devra être restitué le jour de votre départ (les contributions via des comptes déjà existants sont interdites).
++ Les code snippets doivent être créés sur Github Gist.
 + Gardez à l'esprit que le blog doit rester mobile friendly.
-+ Les code snippets doivent être créés sur github gist.
-+ Les images des billets doivent être annotées avec `{:.ns-post-img-fluid}`.
++ Les images des billets doivent être annotées avec `{:.ns-post-img-fluid}` pour qu'elles soient responsives.
++ Les images des billets doivent être rangées dans le dossier `assets/images/posts/{nomDeVotrePost}`.
++ Poussez vos nouveaux articles dans des branches séparées et créez une CR (qui doit être validée) avant de merger votre article dans la branche master.
++ Avant de créer une PR, merci de jouer une build de votre branche avec `bundler exec jekyll build` pour vérifier que votre code compilera sur GitHub.
