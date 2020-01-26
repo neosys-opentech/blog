@@ -12,7 +12,7 @@ La vie est très challengeante, demandeuse en temps, patience et efforts et trè
 
 C'est l'une des choses qui me rebutait le plus quand j'ai commencé ma carrière. Je ne sais d'où je me suis cultivé cette mauvaise idée mais je croyais que les choses devaient se passer linéairement dans la réalisation de mes tâches de développeur. Or il n'en ai rien, des fois vous pouvez juste en modifiant une configuration toute bête (une ligne de code) causer des régressions de dingue. Ceci souvent me stressait et me mettait hors de moi... Jusqu'au jour où j'ai vu cette [vidéo](https://www.youtube.com/watch?v=PGF9HZQbiHc) de [Burke Holland](https://twitter.com/burkeholland) et [Aimee Knight](https://twitter.com/Aimee_Knight) où ils discutent de ce que doivent savoir les développeurs juniors, et c'était le point le 1er et le plus important de la discussion avant même de parler des compétences techniques, apprentissage et formation...etc. Nous devons apprendre à embrasser les circonstances qui changent trop vite, les aléas qui sortent de n'importe où, et les défaillances qui nous touchent aux plus mauvais moments. Nous devons aussi apprendre à embrasser les peurs qui en résultent, accepter qu'ils siègent sur nos épaules et continuer à avancer pas à pas jusqu'à la réalisation de nos chefs d'oeuvre.
 
-Checkez aussi cette autre [conférence](https://www.youtube.com/watch?v=BQCcTlKJ5SQ) de [Aimee Knight](https://twitter.com/Aimee_Knight) sur le même sujet et suivez là sur Twitter.
+Checkez aussi cette [conférence](https://www.youtube.com/watch?v=BQCcTlKJ5SQ) de [Aimee Knight](https://twitter.com/Aimee_Knight) sur le même sujet et suivez là sur Twitter.
 
 ## Agilité
 
