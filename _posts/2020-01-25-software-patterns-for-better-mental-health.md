@@ -6,7 +6,7 @@ title: Principes d'ingénierie logicielle pour une bonne santé mentale
 front_image: /assets/images/posts/2020-01-26-software-patterns-for-better-mental-health/better-health-logo.jpg
 ---
 
-La vie est très challengeante, demandeuse en temps, patience et efforts et très improbable. Notre bien-être se trouvent par moments dégradé et nous ne pouvons plus supporter son poids. Si vous êtes timides et très sensitives, ou/et vous souffrez déjà des symptômes de dépression, anxiété, phobie sociale, trouble bipolaire...etc les choses peuvent vite se compliquer pour vous. Durant ce billet, je vais essayer de résumer mon retour d'expérience de 8 années consécutifs de trouble bipolaire et comment ma carrière d'ingénierie logicielle m'a aidé à accepter ma situation et m'a appris à mieux vivre mon quotidien.
+La vie est très challengeante, demandeuse en temps, patience et efforts et très improbable. Notre bien-être se trouvent par moments dégradé et nous ne pouvons plus supporter son poids. Si vous êtes timides et très sensitives, ou/et vous souffrez déjà des symptômes de dépression, anxiété, phobie sociale, trouble bipolaire...etc les choses peuvent vite se compliquer pour vous. Durant ce billet, je vais essayer de résumer mon retour d'expérience de 8 années consécutives de trouble bipolaire et comment ma carrière d'ingénierie logicielle m'a aidé à accepter ma situation et m'a appris à mieux vivre mon quotidien.
 
 ## Apprendre à être confortable lors des situations inconfortables
 
@@ -16,7 +16,7 @@ Checkez aussi cette [conférence](https://www.youtube.com/watch?v=BQCcTlKJ5SQ) d
 
 ## Agilité
 
-**C'est l'un des principes de la gestion de projets informatiques qui s'appliquent parfaitement à notre vécu**: A la fin des années 90, début 2000 les projets informatiques échouaient souvent et avec un rythme inquiétant, au vu de la rigidité avec laquelle sont planifiés le budget, le temps, l'infrastructure, les ressources humaines,...etc (ces plannings n'étant presque jamais respectés) et la rigidité des contrats de prestation informatique entre client et ESN. La solution pour sortir de ces problèmes était le manifeste agile qui fixe des principes à suivre et plusieurs frameworks agiles qui les implémentent chacun avec ses propres pratiques: Scrum, Kanban,... Sans entrer dans leurs détails techniques voilà ce qui en découlent :
+**C'est l'un des principes de la gestion de projets informatiques qui s'applique parfaitement à notre vécu**: A la fin des années 90, début 2000 les projets informatiques échouaient souvent et avec un rythme inquiétant, au vu de la rigidité avec laquelle sont planifiés le budget, le temps, l'infrastructure, les ressources humaines,...etc (ces plannings n'étant presque jamais respectés) et la rigidité des contrats de prestation informatique entre client et ESN. La solution pour sortir de ces problèmes était le manifeste agile qui fixe des principes à suivre et plusieurs frameworks agiles qui les implémentent chacun avec ses propres pratiques: Scrum, Kanban,... Sans entrer dans leurs détails techniques voilà ce qui en découlent :
 
 * Visez à produire plus de valeur ajoutée pour vous (bien-être, bonne humeur, paix intérieur, satisfaction, joie, confiance, bonne condition physique) durant le process de vos projets plus que les faire aboutir dans la limite de temps + effort imaginaire que vous vous fixez dans la tête. Et n'oubliez pas qu'un projet achevé ne vous réjouira au max que quelques jours.
 
@@ -29,11 +29,11 @@ Checkez aussi cette [conférence](https://www.youtube.com/watch?v=BQCcTlKJ5SQ) d
   * C'est très fatiguant mentalement d'essayer d'analyser et avoir une vision de tout ce que vous voulez accomplir dans le détail, en plus ça prend énormément de temps.
   * C'est contre-productif, car nos plans dans le meilleur des cas ne sont respectés qu'à hauteur de 25 %, la vie est tellement aléatoire que nous échouons à coup sûr dans nos projections.
   * Une vision globale est toujours bonne, mais il faut mettre en tête qu'il faut forger au plus vite pour vérifier la véracité de nos attentes.
-  * Accepter d'ajuster ces derniers au vue des nouvelles données que nous apprenons en mettant la main dans la pâte.
+  * Accepter d'ajuster ces dernières au vue des nouvelles données que nous apprenons en mettant la main dans la pâte.
   
-* Accepter les risques et les zones d'incertitudes et apprendre à les élucider au fur et à mesure que vous avancez, pas besoin de paniquer, vous ne pourrez jamais les éliminer quoi que vous fassiez.
+* Accepter les risques et les zones d'incertitude et apprendre à les élucider au fur et à mesure que vous avancez, pas besoin de paniquer, vous ne pourrez jamais les éliminer quoi que vous fassiez.
 
-## Faire des erreurs n'est pas fatale
+## Faire des erreurs n'est pas si fatal
 
 Une chose que j'apprécie dans mon métier est que l'erreur y est considérée comme la chose la plus certaine et normale. Nous causons tout le temps des régressions, des bugs difficiles à détecter et reproduire, des impacts métiers qui coûtent assez d'argents...etc. Si tu travailles dans une DSI qui se respecte, ton chef de projet ni te virera, ni te sanctionnera mais te demandera de corriger le problème car c'est ce qu'il y a de plus important lorsqu'un incident arrive. Nous ne dramatisons jamais l'erreur, ni cherchons le coupable, et nous sommes toujours dans une logique pragmatique où l'important est de faire retourner les choses à la normale. J'ai dû passer beaucoup de temps pour apprendre ces réflexes en milieu professionnel, et ça m'a aidé à atténuer mon stress et mon anxiété quand je commettais des fautes dans mes projets ainsi que ma vie personnelle.
 
@@ -58,11 +58,11 @@ La science informatique est très vaste et diverse et il est impossible de savoi
 
 ## Lisez de la documentation
 
-La science informatique est la plus accessible et c'est génial. Vous trouverez pour presque chaque problème que vous y rencontrez 100 personnes qui ont déjà eu le même et  des milliers de solutions tous publiées sur des sites Q&A, en plus des sites de documentation officielle dont le contenu est maintenu par des milliers de professionnelles et bénévoles autour du monde. Vos problèmes personnelles sont aussi de même et il y a un tonne de contenu qui y dédié sur internet:
+La science informatique est la plus accessible et c'est génial. Vous trouverez pour presque chaque problème que vous y rencontrez 100 personnes qui ont déjà eu le même et des milliers de solutions, le tout publié sur des sites Q&A, en plus des sites de documentation officielle dont le contenu est maintenu par des milliers de professionnels et bénévoles autour du monde. Vos problèmes personnelles sont aussi de même et il y a un tonne de contenu qui y dédié sur internet:
 
 * Si vous êtes parents: [site](https://parenting.stackexchange.com/)
-* Pour tous ce qui est interpersonnel: [site](https://interpersonal.stackexchange.com/)
-* Psychologie et la neuroscience: [site](https://psychology.stackexchange.com/)
+* Pour tout ce qui est interpersonnel: [site](https://interpersonal.stackexchange.com/)
+* Psychologie et neuroscience: [site](https://psychology.stackexchange.com/)
 * Les threads Reddit sont juste trop forts: [site](https://www.reddit.com/)
 * Bande dessinée pour égayer votre journée: [site](http://www.lunarbaboon.com/), [page facebook](https://www.facebook.com/Lunarbaboon/)
 * Si vous êtes bipolaire comme moi, cette [page facebook](https://www.facebook.com/bipolar0memes/) est faîtes pour vous.
