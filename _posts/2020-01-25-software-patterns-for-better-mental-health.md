@@ -33,7 +33,7 @@ Checkez aussi cette [conférence](https://www.youtube.com/watch?v=BQCcTlKJ5SQ) d
   
 * Accepter les risques et les zones d'incertitude et apprendre à les élucider au fur et à mesure que vous avancez, pas besoin de paniquer, vous ne pourrez jamais les éliminer quoi que vous fassiez.
 
-## Faire des erreurs n'est pas si fatal
+## Se tromper n'est pas si fatal
 
 Une chose que j'apprécie dans mon métier est que l'erreur y est considérée comme la chose la plus certaine et normale. Nous causons tout le temps des régressions, des bugs difficiles à détecter et reproduire, des impacts métiers qui coûtent assez d'argents...etc. Si tu travailles dans une DSI qui se respecte, ton chef de projet ni te virera, ni te sanctionnera mais te demandera de corriger le problème car c'est ce qu'il y a de plus important lorsqu'un incident arrive. Nous ne dramatisons jamais l'erreur, ni cherchons le coupable, et nous sommes toujours dans une logique pragmatique où l'important est de faire retourner les choses à la normale. J'ai dû passer beaucoup de temps pour apprendre ces réflexes en milieu professionnel, et ça m'a aidé à atténuer mon stress et mon anxiété quand je commettais des fautes dans mes projets ainsi que ma vie personnelle.
 
