@@ -5,7 +5,37 @@ layout: default
   {% assign author = site.authors | where: 'short_name', page.author | first %}
   {% if author %}
     <h1>{{ page.title }}</h1>
-    <p>{{ page.date | date: "%Y-%m-%d" }} par <a class="ns-blog-link" href="{{ '/authors/' | append: page.author | relative_url }}">{{ author.name }}</a></p>
+    <p>
+      {{ page.date | date: "%Y-%m-%d" }} par <a class="ns-blog-link" href="{{ '/authors/' | append: page.author | relative_url }}">{{ author.name }}</a>
+
+      {% if author.social_network %}
+
+        {% if author.social_network.linkedin_account %}
+
+        <a href="{{ author.social_network.linkedin_account }}" class="ns-personal-social-link-for-post"><i class="fa fa-linkedin"></i></a>
+
+        {% endif %}
+
+        {% if author.social_network.github_account %}
+
+        <a href="{{ author.social_network.github_account }}" class="ns-personal-social-link-for-post"><i class="fa fa-github"></i></a>
+
+        {% endif %}
+
+        {% if author.social_network.facebook_account %}
+
+        <a href="{{ author.social_network.facebook_account }}" class="ns-personal-social-link-for-post"><i class="fa fa fa-facebook-official"></i></a>
+
+        {% endif %}
+
+        {% if author.social_network.twitter_account %}
+
+        <a href="{{ author.social_network.twitter_account }}" class="ns-personal-social-link-for-post"><i class="fa fa-twitter"></i></a>
+
+        {% endif %}
+        
+      {% endif %}
+    </p>
 
     {{ content }}
 

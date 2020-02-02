@@ -3,6 +3,12 @@ email: bbsaila@neosys.fr
 github_username:  ns-bbsaila
 description: Nous sommes une équipe de développeurs et consultants (juniors et expérimentés) partageants notre savoir, nos retours d'expérience et notre joie de vivre au sein de Neosys
 
+social_network:
+  facebook_account: https://www.facebook.com/NeoSys-207386096639166/
+  twitter_account: https://twitter.com/NEOSYS9
+  linkedin_account: https://www.linkedin.com/company/neosysgroup/
+  github_account: https://github.com/neosys-opentech
+
 # Build settings
 markdown: kramdown
 kramdown:

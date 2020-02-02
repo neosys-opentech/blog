@@ -147,11 +147,62 @@
   max-width:100%;
 }
 
+.ns-right-bar-title {
+  color:gray;
+  font-size:16px;
+  font-weight: 600;
+  text-transform:uppercase;
+}
+
+.ns-right-bar-link {
+  color:rgb(37,72,132);
+  font-size:14px;
+  font-weight: 600;
+}
+
+.ns-sidebar {
+  position: -webkit-sticky;
+  position: sticky; 
+  top: 91px;
+}
+
 .ns-sidebar-title {
   color:rgb(37,72,132);
   font-size:14px;
   font-weight:bold;
   padding-bottom:16px;
+}
+
+.ns-social-icon {
+  color: gray;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.ns-personal-social-link {
+  color: gray;
+  font-size: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.ns-personal-social-link:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.ns-personal-social-link-for-post {
+  color: gray;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-decoration: none;
+}
+
+.ns-personal-social-link-for-post:hover {
+  color: gray;
+  text-decoration: none;
 }
 
 body {
