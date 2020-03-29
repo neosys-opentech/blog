@@ -41,8 +41,9 @@ Pour rédiger le billet:
 
 ## Guidelines
 
-+ Pour accéder à l'organisation **neosys-opentech** et pouvoir y contribuer, merci de m'adresser une demande sur bbsaila@neosys.fr. Par la suite un nouveau compte GitHub va vous être créé et devra être restitué le jour de votre départ (les contributions via des comptes déjà existants sont interdites).
-+ Les code snippets doivent être créés sur Github Gist.
++ Pour accéder à l'organisation **neosys-opentech** et pouvoir y contribuer, merci de m'adresser une demande et créer un compte Github si vous ne possédez pas déjà un, et puis je lierai le votre.
++ Les code snippets doivent être créés sur Github Gist en visibilité public.
++ Lors de la validation de la PR de votre billet: le validateur s'en chargera de forker vos Gists sur le compte Github @ns-blog-gister et vous soumettre les identifiants pour pouvoir les intégrer dans votre billet avant de la valider.
 + Gardez à l'esprit que le blog doit rester mobile friendly.
 + Les images des billets doivent être annotées avec `{:.ns-post-img-fluid}` pour qu'elles soient responsives.
 + Les images des billets doivent être rangées dans le dossier `assets/images/posts/{nomDeVotrePost}`.

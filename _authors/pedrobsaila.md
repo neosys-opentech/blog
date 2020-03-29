@@ -3,7 +3,7 @@ name: Badre BSAILA
 position: Ingénieur d'étude et développement .NET sénior
 profile_picture: /assets/images/authors/badrebsaila.jpg
 social_network:
-  github_account: https://github.com/badrebsaila
+  github_account: https://github.com/pedrobsaila
   linkedin_account: https://www.linkedin.com/in/badre-bsaila-b4a546b4/
   twitter_account: https://twitter.com/pedrobsaila
   facebook_account: https://www.facebook.com/badre.bsaila
