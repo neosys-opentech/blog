@@ -13,4 +13,4 @@ layout: author
 title: Je suis Badre BSAILA
 ---
 
-Développeur .NET. J'ai commencé l'IT sur du Pascal il y a 11 ans par hasard lors d'un cours d'informatique facultatif au lycée, et je n'ai jamais imaginé que ça sera ainsi la suite. Le hasard fait des miracles :blush:
+Développeur .NET. J'ai commencé l'IT sur du Pascal il y a 11 ans et juste par hasard lors d'un cours facultatif au lycée , et je n'ai jamais imaginé que ça sera ainsi la suite. Le hasard fait des miracles :blush:
