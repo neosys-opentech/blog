@@ -1,19 +1,19 @@
 {
-    "cSpell.language": "en,fr",
-    // Specify file types to spell check.
+    "cSpell.language": "fr",
     "cSpell.dictionaryDefinitions": [
         { "name": "corporateTerms", "path": "${workspaceFolder}/.vscode/corporateTerms.txt"},
         { "name": "technicalTerms", "path": "${workspaceFolder}/.vscode/technicalTerms.txt"},
         { "name": "properNouns", "path": "${workspaceFolder}/.vscode/properNouns.txt"},
         { "name": "missingTerms", "path": "${workspaceFolder}/.vscode/missingTerms.txt"},
-        { "name": "englishTerms", "path": "${workspaceFolder}/.vscode/englishTerms.txt"}
+        { "name": "englishTerms", "path": "${workspaceFolder}/.vscode/englishTerms.txt"},
+        { "name": "jekyllTerms", "path": "${workspaceFolder}/.vscode/jekyllTerms.txt"}
     ],
-    // List of dictionaries to use when checking files.
     "cSpell.dictionaries": [
         "corporateTerms",
         "technicalTerms",
         "properNouns",
         "missingTerms",
-        "englishTerms"
+        "englishTerms",
+        "jekyllTerms"
     ]
 }
