@@ -6,7 +6,7 @@ title: MS Ignite The Tour - Paris
 front_image: /assets/images/posts/2019-10-20-ignite-the-tour-paris/ignite-the-tour-paris-logo.jpeg
 ---
 
-Pas plus d'un mois pour que **Microsoft Ignite The Tour** débarque pour la 1ère fois à Paris le 13-14 Novembre à **Paris Convention Center** - Porte de Versailles. Pour rappel, cet événement sillonne quelques 30 villes dans le monde entier chaque année pour y organiser des conférences dédiées aux dernières technologies Microsoft de développement, collaboration, cloud et infrastructure. Les animateurs sont des MVPs, experts, et bien sûr des ingénieurs Microsoft de hauts calibres.
+Pas plus d'un mois pour que **Microsoft Ignite The Tour** débarque pour la 1ère fois à Paris le 13-14 Novembre à **Paris Convention Center** - Porte de Versailles. Pour rappel, cet événement sillonne quelques 30 villes dans le monde entier chaque année pour y organiser des conférences dédiées aux dernières technologies Microsoft de développement, collaboration, cloud et infrastructure. Les animateurs sont des MVP, experts, et bien sûr des ingénieurs Microsoft de hauts calibres.
 
 ## Agenda de l'événement
 
