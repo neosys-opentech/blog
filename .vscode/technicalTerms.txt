@@ -47,3 +47,8 @@ pooling
 Teams
 Edge
 Scrum
+malloc
+struct
+heap
+handle
+IDisposable
