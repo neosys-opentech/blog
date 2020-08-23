@@ -53,3 +53,7 @@ heap
 handle
 IDisposable
 windbg
+coreclr
+sxeld
+eeheap
+sos

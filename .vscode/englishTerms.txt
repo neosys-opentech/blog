@@ -9,3 +9,5 @@ Common
 finalizer
 dump
 crash
+stay
+safe
