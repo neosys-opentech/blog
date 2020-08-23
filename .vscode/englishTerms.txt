@@ -7,3 +7,5 @@ scoring
 Garbage
 Common
 finalizer
+dump
+crash
