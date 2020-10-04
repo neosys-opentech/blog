@@ -11,3 +11,8 @@ dump
 crash
 stay
 safe
+workstation
+timeout
+wink
+true
+false
