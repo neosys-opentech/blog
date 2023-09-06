@@ -2,12 +2,12 @@
 layout: post
 author: pedrobsaila
 date: 2023-09-06 20:00:00
-title: Perfomance de LINQ to Objects
+title: Performance de LINQ
 front_image: /assets/images/posts/2023-09-06-net-linq-perf/logo.jpg
 excerpt_separator: <!--more-->
 ---
 
-LINQ to Objects est sont des méthodes d'extension qui traitent les collections de données fonctionnellement. En fournissant une fonction qui va transformer/filrer/aggréger/projeter un élément, LINQ est capable de propager la fonction sur l'entiereté de la collection. Ce qui permet d'aligner l'écriture des traitements itératifs sur des collections et en simplifier la complexité cyclomatique. La convenance des fonctions LINQ a un coût et le but de ce billet sera de vous présenter ce qu'on perd en performance en les privilégiant.
+LINQ est un ensemble de méthodes qui traitent les collections de données fonctionnellement. En fournissant une fonction qui va transformer/filrer/aggréger/projeter un élément, LINQ est capable de propager la fonction sur l'entiereté de la collection. Ce qui permet d'aligner l'écriture des traitements itératifs sur des collections et en simplifier la complexité cyclomatique. La convenance des fonctions LINQ a un coût et le but de ce billet sera de vous présenter ce qu'on perd en performance en les privilégiant.
 
 <!--more-->
 
