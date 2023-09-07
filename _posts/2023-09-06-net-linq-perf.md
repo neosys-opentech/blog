@@ -2,12 +2,12 @@
 layout: post
 author: pedrobsaila
 date: 2023-09-06 20:00:00
-title: Performance de LINQ
+title: Performances de LINQ
 front_image: /assets/images/posts/2023-09-06-net-linq-perf/logo.jpg
 excerpt_separator: <!--more-->
 ---
 
-LINQ est un ensemble de méthodes qui traitent les collections de données fonctionnellement. En fournissant une fonction qui va transformer/filrer/aggréger/projeter un élément, LINQ est capable de propager la fonction sur l'entiereté de la collection. Ce qui permet d'aligner l'écriture des traitements itératifs sur des collections et en simplifier la complexité cyclomatique. La convenance des fonctions LINQ a un coût et le but de ce billet sera de vous présenter ce qu'on perd en performance en les privilégiant.
+LINQ est un ensemble de méthodes qui traitent les collections fonctionnellement. En fournissant une fonction qui va transformer/filrer/aggréger/projeter un élément, LINQ est capable de propager la fonction sur l'entièreté de la collection. Ce qui permet d'aligner l'écriture des traitements itératifs sur des collections et en simplifier la complexité cyclomatique. La convenance des fonctions LINQ a un coût et le but de ce billet sera de vous présenter ce qu'on perd en performance en les privilégiant.
 
 <!--more-->
 
@@ -31,7 +31,7 @@ On remarque 2 choses :
 
 # Analyse des allocations mémoire
 
-Pour expliquer les derniers résultats, je vais utiliser l'outil *PerfView* dont j'ai déjà fait la présentation sur ce [billet](https://devblogs.microsoft.com/dotnet/gc-etw-events-1/) :
+Pour expliquer les derniers résultats, je vais utiliser l'outil *PerfView* dont j'ai déjà fait la présentation sur ce [billet]({{ '2021/04/18/net-gc-part5.html' | relative_url }}) :
 
 * Démarrons le :
 
@@ -49,7 +49,7 @@ Pour expliquer les derniers résultats, je vais utiliser l'outil *PerfView* dont
 
 * Quand l'exécution de mon appli se termine, j'annule la collection avec *Cancel* et j'attends que les données soient consolidés dans un fichier *.etl
 
-* J'ouvre ce dernier avec Perfview et je double clique sur la sous arborescence *Events* :
+* J'ouvre ce dernier avec *Perfview* et je double clique sur la sous arborescence *Events* :
 
 {:.ns-post-img-fluid}
 ![alt Events leaf]({{ '/assets/images/posts/2023-09-06-net-linq-perf/perfview-dump.png' | relative_url }}){:.mx-auto}{:.d-block}
@@ -106,11 +106,11 @@ Ainsi on voit clairement que LINQ consomme :
 
 # Conclusion
 
-Ne soyez pas tenté de faire une grosse refacto éliminant LINQ sauf si vous être sûrs que c'est le point de contention :grin:. Il simplifie malgré tout la compexité cyclomatique du code le rendant plus lisible et compréhensible pour les autres copains. Dans la majorité des cas, les points de contention sont les requêtes mal-optimisées, mauvaise gestion de cache, saturation de la bande passante réseau, scalabilité horizontale/verticale non appropriée, distribution de charge non-équilibré... Le but c'est de vous rendre conscient des différents impacts, comment les analyser, et vous encourger à écrire des expressions LINQ simple (sans inclusion de variables externes).
+Ne soyez pas tenté de faire une grosse refacto éliminant LINQ sauf si vous être sûrs que c'est le point de contention :grin:. Il simplifie malgré tout la complexité cyclomatique du code le rendant plus lisible et compréhensible pour les copains. Dans la majorité des cas, les points de contention sont les requêtes mal-optimisées, mauvaise gestion de cache, saturation de la bande passante réseau, scalabilité horizontale/verticale non appropriée, distribution de charge non-équilibré... Le but c'est de vous rendre conscient des différents impacts, comment les analyser, et vous encourger à écrire des expressions LINQ simples.
 
 # Références
 
 * [Discussion Github](https://github.com/dotnet/runtime/discussions/45060).
 * [ETW](https://docs.microsoft.com/en-us/windows/win32/etw/about-event-tracing).
-* [PerfView](https://devblogs.microsoft.com/dotnet/gc-etw-events-1/).
+* [PerfView]({{ '2021/04/18/net-gc-part5.html' | relative_url }}).
 * [Devblogs](https://devblogs.microsoft.com/dotnet/understanding-the-cost-of-csharp-delegates/)
