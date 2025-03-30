@@ -7,7 +7,7 @@ social_network:
   linkedin_account: https://www.linkedin.com/in/badre-bsaila-b4a546b4/
   twitter_account: https://twitter.com/pedrobsaila
   facebook_account: https://www.facebook.com/badre.bsaila
-location: Rabat-Maroc
+location: Bordeaux-France
 short_name: pedrobsaila
 layout: author
 title: Je suis Badre BSAILA
